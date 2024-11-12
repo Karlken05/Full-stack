@@ -1,0 +1,84 @@
+#formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    border: 2px solid #d5ffa400;
+    background-color: #f4fff000;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: lefta;
+    color: #6d348300;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border: 2px solid #69bd6d;
+    padding-left: 10px;                                       
+    margin: 10px 0;
+    background-color: #ecfdf591;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+input[type="button"] {
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    border: 2px solid #abbd69;
+    background-color: #279797;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+input[type="button"]:hover {
+    background-color: #292c2c;
+}
+
+#lista-vendas {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#lista-vendas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-vendas li {
+    background-color: #F7DC6F;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lista-vendas button {
+    border: none;
+    background-color: #ded4b4;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#lista-vendas button:hover {
+    background-color: #c2ce8f;
+}

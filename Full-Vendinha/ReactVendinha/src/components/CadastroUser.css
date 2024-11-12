@@ -1,0 +1,89 @@
+#formulario {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  border: 2px solid #091d1a;
+  background-color:   #c08225;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  text-align: left;
+  color: #34508350;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 80%;
+  height: 20px;
+  border-radius: 40px;
+  border: 2px solid #07070700;
+  padding-left: 10px;
+  margin: 10px 0;
+  background-color: #566e7c86;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+input[type="button"] {
+  width: 100%;
+  height: 45px;
+  border-radius: 25px;
+  border: 2px solid #32b4985b;
+  background-color: #b4d2de;
+  color: rgb(255, 255, 255);
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+input[type="button"]:hover {
+  background-color: #bdce8f;
+}
+
+img {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6f9af750;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0);
+  width: 400px;
+  height: 800px; /* Mantive a altura como estava, mas pode ser ajustada conforme necessário */
+}
+
+.btn-editar {
+  width: 100%;
+  height: 45px;
+  border-radius: 25px;
+  border: 2px solid #58D68D; /* Cor verde suave para destacar */
+  background-color: #A9DFBF; /* Cor de fundo verde claro */
+  color: rgb(255, 255, 255);
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ; /* Adicionando um efeito de transformação */
+  margin-top: 15px;
+}
+
+.btn-editar:hover {
+  background-color: #58D68D; /* Escurecendo o fundo ao passar o mouse */
+  transform: scale(1.05); /* Leve aumento no botão */
+}
